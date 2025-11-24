@@ -31,12 +31,12 @@ Scaling: Standardized numeric features using StandardScaler.
 2. Model Implementation
 Six machine learning algorithms were implemented and compared using scikit-learn:
 
-Logistic Regression
-Decision Tree
-Random Forest
-XGBoost
-K-Nearest Neighbors (KNN)
-Support Vector Machine (SVM)
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. XGBoost
+5. K-Nearest Neighbors (KNN)
+6. Support Vector Machine (SVM)
 
 Hyperparameter tuning was conducted using GridSearchCV with 5-Fold Cross-Validation.
 
