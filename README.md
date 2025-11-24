@@ -20,7 +20,7 @@ Target Variable: A binary classification of "Dropout" vs. "Graduate" (records wi
 Methodology
 The project follows a structured machine learning pipeline:
 
-1. Data Preprocessing
+Data Preprocessing
 Cleaning: Verified no null values or duplicates.
 Filtering: Removed "Enrolled" instances to focus on the binary outcome.
 Encoding: Mapped "Dropout" to 0 and "Graduate" to 1.
@@ -28,7 +28,7 @@ Balancing: Applied SMOTE (Synthetic Minority Oversampling Technique) to address 
 Outlier Removal: Used custom ranges for grades (0-20) and Interquartile Range (IQR) for other numeric features.
 Scaling: Standardized numeric features using StandardScaler.
 
-2. Model Implementation
+Model Implementation
 Six machine learning algorithms were implemented and compared using scikit-learn:
 
 1. Logistic Regression
